@@ -1,3 +1,4 @@
+import 'package:bank_app_ui/screens/main_screen.dart';
 import 'package:bank_app_ui/utils/assets.dart';
 import 'package:bank_app_ui/widgets/login_option_button.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,6 @@ class SplashScreen extends StatelessWidget {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFF432148), Color(0xFF213048)],
-            
           ),
         ),
         child: SafeArea(
@@ -40,21 +40,30 @@ class SplashScreen extends StatelessWidget {
                             assetPath: faceIdImage,
                             title: 'Face Id',
                             onPressed: () {
-                          
+                              Navigator.of(context).pushReplacement(
+                                MaterialPageRoute(
+                                    builder: (context) => const MainScreen()),
+                              );
                             },
                           ),
                           LoginOptionButton(
                             assetPath: pinCodeImage,
                             title: 'Pin Code',
                             onPressed: () {
-                        
+                              Navigator.of(context).pushReplacement(
+                                MaterialPageRoute(
+                                    builder: (context) => const MainScreen()),
+                              );
                             },
                           ),
                           LoginOptionButton(
                             assetPath: otherImage,
                             title: 'Other',
                             onPressed: () {
-                          
+                              Navigator.of(context).pushReplacement(
+                                MaterialPageRoute(
+                                    builder: (context) => const MainScreen()),
+                              );
                             },
                           ),
                         ],
