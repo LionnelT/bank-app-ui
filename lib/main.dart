@@ -1,3 +1,4 @@
+import 'package:bank_app_ui/screens/login_screen/login_screen.dart';
 import 'package:bank_app_ui/screens/splash_screen.dart';
 import 'package:bank_app_ui/utils/assets.dart';
 import 'package:device_preview/device_preview.dart';
@@ -20,10 +21,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData.dark(useMaterial3: true).copyWith(
-        colorScheme: const ColorScheme.dark().copyWith(primary: coral),
+      theme: ThemeData(
+        scaffoldBackgroundColor: kBackgroundColor,
+        textTheme: Theme.of(context).textTheme.apply(
+              bodyColor: kPrimaryColor,
+              fontFamily: 'Montserrat',
+            ),
       ),
-      home: const SplashScreen(),
+      home: const LoginScreen(),
     );
   }
 }

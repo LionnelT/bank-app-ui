@@ -22,7 +22,7 @@ class DetailsSliver extends ConsumerWidget {
           filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
           child: Container(
             decoration: const BoxDecoration(
-              color: whiteBg,
+              color: kLightPrimaryColor,
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(16),
                 topRight: Radius.circular(16),
