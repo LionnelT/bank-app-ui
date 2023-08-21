@@ -38,7 +38,7 @@ class DetailsSliver extends ConsumerWidget {
                   Text(
                     'Details',
                     style: Theme.of(context).textTheme.headlineLarge?.copyWith(
-                          color: Colors.black87,
+                           color: kSecondaryColor,
                           fontWeight: FontWeight.w700,
                         ),
                   ),
@@ -66,12 +66,14 @@ class DetailsSliver extends ConsumerWidget {
                                   .textTheme
                                   .titleMedium
                                   ?.copyWith(
-                                    color: coral,
+                                    color: kSecondaryColor,
                                     fontWeight: FontWeight.w400,
                                   ),
                             ),
                             const SizedBox(width: 8),
-                            const Icon(Icons.arrow_forward_ios)
+                            const Icon(
+                               color: kSecondaryColor,
+                              Icons.arrow_forward_ios)
                           ],
                         ),
                       )
@@ -86,7 +88,7 @@ class DetailsSliver extends ConsumerWidget {
                   Text(
                     'Transactions history',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          color: Colors.black87,
+                          color: kSecondaryColor,
                           fontWeight: FontWeight.w400,
                         ),
                   ),
@@ -108,12 +110,14 @@ class DetailsSliver extends ConsumerWidget {
                                 .textTheme
                                 .titleMedium
                                 ?.copyWith(
-                                  color: coral,
+                                  color: kSecondaryColor,
                                   fontWeight: FontWeight.w400,
                                 ),
                           ),
                           const SizedBox(width: 8),
-                          const Icon(Icons.arrow_forward_ios)
+                          const Icon(
+                             color: kSecondaryColor,
+                            Icons.arrow_forward_ios)
                         ],
                       ),
                     ),

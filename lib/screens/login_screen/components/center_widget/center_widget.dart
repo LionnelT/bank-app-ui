@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:bank_app_ui/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 import 'center_widget_clipper.dart';
@@ -73,13 +74,13 @@ class CenterWidget extends StatelessWidget {
           child: BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
             child: Container(
-              decoration: const BoxDecoration(
+              decoration:  const BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment(1, -0.6),
                   end: Alignment(-1, 0.8),
                   colors: [
-                    Color(0x803DE896),
-                    Color(0x4D76E3AE),
+                    kLightPrimaryColor,
+                    kPrimaryColor
                   ],
                 ),
               ),

@@ -55,7 +55,7 @@ class _BottomTextState extends State<BottomText> {
                       ? 'Already have an account? '
                       : 'Don\'t have an account? ',
                   style: const TextStyle(
-                    color: kDarkPrimaryColor,
+                    color: kTextColor,
                     fontWeight: FontWeight.w600,
                   ),
                 ),

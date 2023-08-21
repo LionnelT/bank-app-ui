@@ -1,5 +1,6 @@
 import 'package:bank_app_ui/screens/login_screen/components/center_widget/center_widget.dart';
 import 'package:bank_app_ui/screens/login_screen/components/login_content.dart';
+import 'package:bank_app_ui/utils/assets.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
@@ -24,8 +25,8 @@ class _LoginScreenState extends State<LoginScreen> {
             begin: Alignment(-0.2, -0.8),
             end: Alignment.bottomCenter,
             colors: [
-              Color(0x007CBFCF),
-              Color(0xB316BFC4),
+              kLightPrimaryColor,
+              kPrimaryColor,
             ],
           ),
         ),
@@ -43,8 +44,8 @@ class _LoginScreenState extends State<LoginScreen> {
           begin: Alignment(0.6, -1.1),
           end: Alignment(0.7, 0.8),
           colors: [
-            Color(0xDB4BE8CC),
-            Color(0x005CDBCF),
+            kPrimaryColor,
+            kLightPrimaryColor,
           ],
         ),
       ),

@@ -1,4 +1,5 @@
 import 'package:bank_app_ui/screens/login_screen/animations/change_screen_animation.dart';
+import 'package:bank_app_ui/utils/assets.dart';
 import 'package:bank_app_ui/utils/helper_functions.dart';
 import 'package:flutter/material.dart';
 
@@ -33,6 +34,7 @@ class _TopTextState extends State<TopText> {
             ? 'Create\nAccount'
             : 'Welcome\nBack',
         style: const TextStyle(
+          color: kTextColor,
           fontSize: 40,
           fontWeight: FontWeight.w600,
         ),

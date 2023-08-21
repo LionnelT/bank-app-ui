@@ -41,7 +41,7 @@ class DetailsAction extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        SvgPicture.asset(action.iconPath),
+        SvgPicture.asset(color: kSecondaryColor, action.iconPath),
         const SizedBox(width: 12),
         Expanded(
           child: Container(
@@ -49,7 +49,7 @@ class DetailsAction extends StatelessWidget {
             decoration: BoxDecoration(
               border: Border(
                 top: isFirst
-                    ?  const BorderSide(
+                    ? const BorderSide(
                         color: Colors.black12,
                         width: 1,
                       )
