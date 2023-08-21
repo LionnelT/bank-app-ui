@@ -5,8 +5,6 @@ import 'package:bank_app_ui/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-
-
 class CreditCardModel {
   final int cardNumber;
   final double balance;
@@ -47,7 +45,7 @@ class CreditCard extends StatelessWidget {
               Text(
                 'Current Balance',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Colors.white.withAlpha(130),
+                  color: kPrimaryTextColor,
                   shadows: [
                     Shadow(
                       color: Colors.black.withOpacity(0.25),
@@ -78,10 +76,9 @@ class CreditCard extends StatelessWidget {
                   letterSpacing: 3,
                   fontWeight: FontWeight.w600,
                   shadows: [
-                    Shadow(
-                      color: Colors.black.withOpacity(0.25),
-                      offset: const Offset(0, 2),
-                      blurRadius: 5,
+                    const Shadow(
+                      color: kPrimaryTextColor,
+                      offset: Offset(0, 2),
                     ),
                   ],
                 ),
@@ -93,13 +90,13 @@ class CreditCard extends StatelessWidget {
                   children: [
                     Text(
                       dateToExpiry(card.expiryDate),
-                      style: TextStyle(
+                      style: const TextStyle(
                         letterSpacing: 3,
                         shadows: [
                           Shadow(
-                            color: Colors.black.withOpacity(0.25),
-                            offset: const Offset(0, 2),
-                            blurRadius: 5,
+                            color: kPrimaryTextColor,
+                            offset: Offset(0, 2),
+                            // blurRadius: 0,
                           ),
                         ],
                       ),

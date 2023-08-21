@@ -20,7 +20,7 @@ class MainScreen extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [purple, deepBlue],
+            colors: [kPrimaryColor, deepBlue],
             transform: GradientRotation(gradientRotation),
           ),
         ),
