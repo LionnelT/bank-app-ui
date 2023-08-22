@@ -10,7 +10,7 @@ final fakeTransactionsProvider = Provider((ref) {
       date: '18.08.2023 19:00',
     ),
     TransactionItemModel(
-      title: 'TM Supermarket',
+      title: 'Museyamwa Supermarket',
       subtitle: 'Harare, Zimbabwe',
       amount: '-\$13',
       date: '15.08.2023 13:34',

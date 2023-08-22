@@ -7,10 +7,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  runApp(DevicePreview(
+  runApp(
+    DevicePreview(
+      // defaultDevice: ,
       isToolbarVisible: false,
       enabled: kIsWeb,
-      builder: ((context) => const ProviderScope(child: MyApp()))));
+      builder: ((context) => const ProviderScope(child: MyApp())),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -20,7 +24,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Bank App UI',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
         textTheme: Theme.of(context).textTheme.apply(

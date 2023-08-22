@@ -43,42 +43,42 @@ class DetailsSliver extends ConsumerWidget {
                         ),
                   ),
                   const SizedBox(height: 8),
-                  Row(
-                    children: [
-                      Image.asset(usaFlag),
-                      const SizedBox(width: 8),
-                      Text(
-                        'USD 56*3254',
-                        style:
-                            Theme.of(context).textTheme.titleMedium?.copyWith(
-                                  color: Colors.black87,
-                                  fontWeight: FontWeight.w400,
-                                ),
-                      ),
-                      const Spacer(),
-                      TextButton(
-                        onPressed: () {},
-                        child: Row(
-                          children: [
-                            Text(
-                              'See',
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .titleMedium
-                                  ?.copyWith(
-                                    color: kSecondaryColor,
-                                    fontWeight: FontWeight.w400,
-                                  ),
-                            ),
-                            const SizedBox(width: 8),
-                            const Icon(
-                               color: kSecondaryColor,
-                              Icons.arrow_forward_ios)
-                          ],
-                        ),
-                      )
-                    ],
-                  ),
+                  // Row(
+                  //   children: [
+                  //     Image.asset(usaFlag),
+                  //     const SizedBox(width: 8),
+                  //     Text(
+                  //       'USD 56*3254',
+                  //       style:
+                  //           Theme.of(context).textTheme.titleMedium?.copyWith(
+                  //                 color: Colors.black87,
+                  //                 fontWeight: FontWeight.w400,
+                  //               ),
+                  //     ),
+                  //     const Spacer(),
+                  //     TextButton(
+                  //       onPressed: () {},
+                  //       child: Row(
+                  //         children: [
+                  //           Text(
+                  //             'See',
+                  //             style: Theme.of(context)
+                  //                 .textTheme
+                  //                 .titleMedium
+                  //                 ?.copyWith(
+                  //                   color: kSecondaryColor,
+                  //                   fontWeight: FontWeight.w400,
+                  //                 ),
+                  //           ),
+                  //           const SizedBox(width: 8),
+                  //           const Icon(
+                  //              color: kSecondaryColor,
+                  //             Icons.arrow_forward_ios)
+                  //         ],
+                  //       ),
+                  //     )
+                  //   ],
+                  // ),
                   const SizedBox(height: 8),
                   Divider(
                     color: Colors.grey.withOpacity(0.3),

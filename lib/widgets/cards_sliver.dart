@@ -56,10 +56,10 @@ class CardSliver extends StatelessWidget {
           children: [
             Padding(
               padding: EdgeInsets.only(left: 16),
-              child: Text('Hi Lionnel',
+              child: Text('Hi Lio',
                   style: TextStyle(
                       fontSize: 50,
-                      color: kTextColor,
+                      color: kLightPrimaryColor,
                       fontWeight: FontWeight.bold)),
             ),
             SizedBox(height: 44),
