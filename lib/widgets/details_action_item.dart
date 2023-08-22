@@ -41,6 +41,7 @@ class DetailsAction extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
+        // ignore: deprecated_member_use
         SvgPicture.asset(color: kSecondaryColor, action.iconPath),
         const SizedBox(width: 12),
         Expanded(

@@ -1,5 +1,5 @@
 import 'package:bank_app_ui/screens/login_screen/login_screen.dart';
-import 'package:bank_app_ui/screens/splash_screen.dart';
+
 import 'package:bank_app_ui/utils/assets.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
