@@ -42,6 +42,7 @@ dependencies:
   ionicons: ^0.1.2
   introduction_screen: ^3.1.11
   rive: ^0.11.4
+  lottie: ^2.6.0
 
 dev_dependencies:
   flutter_test:

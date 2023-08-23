@@ -1,3 +1,4 @@
+import 'package:bank_app_ui/screens/intro_screen.dart';
 import 'package:bank_app_ui/screens/login_screen/login_screen.dart';
 
 import 'package:bank_app_ui/utils/assets.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
               fontFamily: 'Montserrat',
             ),
       ),
-      home: const LoginScreen(),
+      home: const IntroScreen(),
     );
   }
 }
