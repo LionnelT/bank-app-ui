@@ -40,6 +40,8 @@ dependencies:
   carousel_slider: ^4.2.1
   device_preview: ^1.1.0
   ionicons: ^0.1.2
+  introduction_screen: ^3.1.11
+  rive: ^0.11.4
 
 dev_dependencies:
   flutter_test:
